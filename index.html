@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rick and Morty Explorer</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <main class="main-container">
-    <h1 class="title-app">
-      Rick and Morty Explorer
-    </h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty Explorer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <!-- App Title -->
+      <h1 class="title-app">Rick and Morty Explorer</h1>
 
-    <section class="search-character">
-      <label for="input-search" class="tag-search">Search Character</label>
-      <input type="text" id="input-search" name="characterName" class="input-search" placeholder="Ej: Rick">
-      <button id="btn-search" class="btn-search">Search</button>
-    </section>
-    
-    <section class="character-result" id="character-result">
+      <!-- Search Section -->
+      <section class="search-character">
+        <label for="input-search" class="tag-search">Search Character</label>
+        <input
+          type="text"
+          id="input-search"
+          name="characterName"
+          class="input-search"
+          placeholder="E.g. Rick"
+        />
+        <button id="btn-search" class="btn-search">Search</button>
+      </section>
 
-    </section>
-  </main>
+      <!-- Results Section: Characters will be displayed here -->
+      <section class="character-result" id="character-result">
+        <!-- Characters will be dynamically inserted here -->
+      </section>
+    </main>
 
-  <script src="js/main.js"></script>
-</body>
+    <!-- Main JavaScript file -->
+    <script src="js/main.js"></script>
+  </body>
 </html>

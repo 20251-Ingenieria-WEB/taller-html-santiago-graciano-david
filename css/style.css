@@ -1,3 +1,4 @@
+/* Base styles */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -5,6 +6,7 @@ body {
   background-color: #f4f4f4;
 }
 
+/* Main container for the app */
 .main-container {
   max-width: 800px;
   margin: auto;
@@ -14,11 +16,13 @@ body {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Title styling */
 .title-app {
   text-align: center;
   color: #333;
 }
 
+/* Search form styles */
 .search-character {
   display: flex;
   flex-direction: column;
@@ -26,6 +30,7 @@ body {
   margin-bottom: 2rem;
 }
 
+/* Input field */
 .input-search {
   padding: 0.5rem;
   border: 1px solid #ccc;
@@ -33,6 +38,7 @@ body {
   font-size: 1rem;
 }
 
+/* Search button */
 .btn-search {
   padding: 0.6rem;
   background-color: #007bff;
@@ -44,10 +50,12 @@ body {
   transition: background-color 0.2s;
 }
 
+/* Hover effect for the search button */
 .btn-search:hover {
   background-color: #0056b3;
 }
 
+/* Results container: grid layout for character cards */
 .character-result {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -55,7 +63,7 @@ body {
   margin-top: 2rem;
 }
 
-/* Estilo de las tarjetas */
+/* Individual character card */
 .character-card {
   background-color: #fff;
   border-radius: 12px;
@@ -66,10 +74,12 @@ body {
   transition: transform 0.2s;
 }
 
+/* Hover animation for cards */
 .character-card:hover {
   transform: translateY(-5px);
 }
 
+/* Character image inside card */
 .character-card img {
   width: 100%;
   height: auto;
@@ -77,12 +87,14 @@ body {
   border-bottom: 1px solid #eee;
 }
 
+/* Character name */
 .character-card h3 {
   margin: 0.5rem 0 0;
   font-size: 1.1rem;
   color: #222;
 }
 
+/* Character additional info */
 .character-card p {
   margin: 0.25rem 0;
   font-size: 0.95rem;
